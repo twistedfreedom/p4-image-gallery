@@ -6,6 +6,7 @@
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
+
 }
 
 .gallery .control-button:hover {
@@ -26,11 +27,20 @@
   background: #4d87e2;
 }
 .gallery .controls {
+  background: red;
   position: absolute;
-  bottom: 0;
+  bottom: -7.3em;
   width: 100%;
   text-align: center;
+  margin:0px;
+
 }
+
+.gallery .controls img{
+  border:3px solid black;
+  border-radius:25%;
+}
+
 .gallery .control-button {
   display: inline-block;
   margin: 0 .02em;
