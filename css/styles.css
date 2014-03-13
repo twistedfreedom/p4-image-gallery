@@ -1,5 +1,19 @@
 /* Your Website Styles */
+body{
+  background: url("../img/subtle.png")
+}
 
+p{
+  font-family: 'Gruppo', cursive;
+  font-size: 1.5em;
+  border-bottom: 2px solid #042658;
+  color:#042658;
+  margin-top:0em;
+}
+
+figure{
+
+}
 
 
 /* Gallery Stying */
@@ -21,24 +35,23 @@
   position: relative;
 }
 .gallery .item {
-  height: 400px;
+  height: 25em;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
+  background: url("../img/brushed.png");
 }
 .gallery .controls {
-  background: red;
+  background: url("../img/subtle.png");
   position: absolute;
   bottom: -7.3em;
   width: 100%;
   text-align: center;
-  margin:0px;
-
 }
 
 .gallery .controls img{
   border:3px solid black;
   border-radius:25%;
+  margin-top:.4em;
 }
 
 .gallery .control-button {
