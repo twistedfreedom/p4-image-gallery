@@ -21,22 +21,20 @@ img{
 
 
 
- a{
+ h1 a{
    font-family: 'Lato', sans-serif;
   font-size: 2em;
   border-bottom: 2px solid #042658;
   color:#042658;
-  margin-top:1em;
   width: 100%;
-  text-align: center;
+  display: block;
   text-decoration: none;
   padding:1em;
-
 }
 
 .poster{
   width:22%;
-  height:75%;
+  
 }
 
   
@@ -70,7 +68,7 @@ img{
   overflow:;
   text-align: center;
   background: url("../img/brushed.png");
-  border-bottom:2px solid #042658;
+  border-bottom:3px solid #042658;
  margin: 0 auto;
 }
 .gallery .controls {
