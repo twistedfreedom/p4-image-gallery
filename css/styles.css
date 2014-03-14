@@ -10,7 +10,8 @@ p{
   border-bottom: 2px solid #042658;
   color:#042658;
   margin-top:0em;
-  width: 80%;
+  width: 100%;
+  text-align: center;
 }
 
 img{
@@ -18,9 +19,24 @@ img{
  
 }
 
-img .bmw{
-   width: 15em;
-  height: 15em;
+
+
+ a{
+   font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  border-bottom: 2px solid #042658;
+  color:#042658;
+  margin-top:1em;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding:1em;
+
+}
+
+.poster{
+  width:22%;
+  height:75%;
 }
 
   
@@ -49,16 +65,17 @@ img .bmw{
   position: relative;
 }
 .gallery .item {
-  height: 35em;
-  width:90%;
+  height: 38.5em;
+  width:100%;
   overflow:;
   text-align: center;
   background: url("../img/brushed.png");
+  border-bottom:2px solid #042658;
+ margin: 0 auto;
 }
 .gallery .controls {
   background: url("../img/subtle.png");
-  position: relative;
-  bottom: -37.3em;
+  position: absolute;
   width: 100%;
   text-align: center;
 }
