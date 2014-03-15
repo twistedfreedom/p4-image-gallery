@@ -27,7 +27,7 @@
 .gallery .control-operator:target ~ .item {
   pointer-events: none;
   opacity: 0;
-  animation: none;
+  animation: ;
 }
 .gallery .control-operator:target ~ .controls .control-button {
   animation: none;
@@ -230,6 +230,8 @@
 .items-4 .item:nth-of-type(4) {
   animation-delay: 19s;
 }
+
+
 
 @keyframes controlAnimation-5 {
   0% {
